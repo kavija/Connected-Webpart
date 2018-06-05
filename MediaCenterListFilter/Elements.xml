@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="MediaCenterListFilter" List="113" Url="_catalogs/wp">
+    <File Path="MediaCenterListFilter\MediaCenterListFilter.webpart" Url="Demo.Webparts_MediaCenterListFilter.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Media Center" />
+    </File>
+  </Module>
+</Elements>
