@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="MediaCenterListViewUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MediaCenterListView\" Type="ElementManifest" />
+    <ProjectItemFile Source="MediaCenterListView.webpart" Target="MediaCenterListView\" Type="ElementFile" />
+    <ProjectItemFile Source="MediaCenterListViewUserControl.ascx" Target="CONTROLTEMPLATES\Demo.Webparts.VisualWebParts\MediaCenterListView\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="Demo.Webparts.VisualWebParts.MediaCenterListView" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
